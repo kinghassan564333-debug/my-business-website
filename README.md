@@ -1,10 +1,10 @@
-# Salone - Free Bootstrap 5 Business Template 
+#  - Free Bootstrap 5 Business Template 
 
-- [Demo](https://themewagon.github.io/Salone/)
+- [Demo](https://themewagon.github.io//)
 
 #### Download
 
-- [Download from ThemeWagon](https://themewagon.com/themes/salone/)
+- [Download from ThemeWagon](https://themewagon.com/themes//)
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ git clone https://github.com/themewagon/Mantis-Vue.git
 ## Author
 
 ```
-Salone is developed by Team HTML Codex.
+ is developed by Team HTML Codex.
 ```
 
 ## License
