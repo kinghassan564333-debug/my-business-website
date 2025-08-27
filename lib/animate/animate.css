@@ -29,7 +29,7 @@
 }
 
 @keyframes bounce {
-  from, 20%, 53%, 80%, to {
+  from, , 53%, 80%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     transform: translate3d(0,0,0);
   }
@@ -93,7 +93,7 @@
     transform: scale3d(1, 1, 1);
   }
 
-  30% {
+   {
     transform: scale3d(1.25, 0.75, 1);
   }
 
@@ -127,11 +127,11 @@
     transform: translate3d(0, 0, 0);
   }
 
-  10%, 30%, 50%, 70%, 90% {
+  10%, , 50%, 70%, 90% {
     transform: translate3d(-10px, 0, 0);
   }
 
-  20%, 40%, 60%, 80% {
+  , 40%, 60%, 80% {
     transform: translate3d(10px, 0, 0);
   }
 }
@@ -172,7 +172,7 @@
 }
 
 @keyframes swing {
-  20% {
+   {
     transform: rotate3d(0, 0, 1, 15deg);
   }
 
@@ -203,11 +203,11 @@
     transform: scale3d(1, 1, 1);
   }
 
-  10%, 20% {
+  10%,  {
     transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
   }
 
-  30%, 50%, 70%, 90% {
+  , 50%, 70%, 90% {
     transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
   }
 
@@ -235,8 +235,8 @@
     transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
   }
 
-  30% {
-    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+   {
+    transform: translate3d(, 0, 0) rotate3d(0, 0, 1, 3deg);
   }
 
   45% {
@@ -300,7 +300,7 @@
 }
 
 @keyframes bounceIn {
-  from, 20%, 40%, 60%, 80%, to {
+  from, , 40%, 60%, 80%, to {
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
   }
 
@@ -309,7 +309,7 @@
     transform: scale3d(.3, .3, .3);
   }
 
-  20% {
+   {
     transform: scale3d(1.1, 1.1, 1.1);
   }
 
@@ -465,7 +465,7 @@
 }
 
 @keyframes bounceOut {
-  20% {
+   {
     transform: scale3d(.9, .9, .9);
   }
 
@@ -485,7 +485,7 @@
 }
 
 @keyframes bounceOutDown {
-  20% {
+   {
     transform: translate3d(0, 10px, 0);
   }
 
@@ -505,7 +505,7 @@
 }
 
 @keyframes bounceOutLeft {
-  20% {
+   {
     opacity: 1;
     transform: translate3d(20px, 0, 0);
   }
@@ -521,7 +521,7 @@
 }
 
 @keyframes bounceOutRight {
-  20% {
+   {
     opacity: 1;
     transform: translate3d(-20px, 0, 0);
   }
@@ -537,7 +537,7 @@
 }
 
 @keyframes bounceOutUp {
-  20% {
+   {
     transform: translate3d(0, -10px, 0);
   }
 
@@ -934,7 +934,7 @@
     transform: perspective(400px);
   }
 
-  30% {
+   {
     transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
     opacity: 1;
   }
@@ -956,7 +956,7 @@
     transform: perspective(400px);
   }
 
-  30% {
+   {
     transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
     opacity: 1;
   }
@@ -1197,7 +1197,7 @@
     animation-timing-function: ease-in-out;
   }
 
-  20%, 60% {
+  , 60% {
     transform: rotate3d(0, 0, 1, 80deg);
     transform-origin: top left;
     animation-timing-function: ease-in-out;
